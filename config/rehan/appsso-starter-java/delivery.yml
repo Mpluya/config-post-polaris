@@ -33,7 +33,7 @@ spec:
       - env:
         - name: JAVA_TOOL_OPTIONS
           value: -Dserver.port="8080" -Dserver.shutdown.grace-period="24s"
-        image: index.docker.io/tapsme/appsso-starter-java-rehan@sha256:542b28b4cc2c3d40c28c8c1e01096d8a898c00f9dfd2848600eb255805244035
+        image: index.docker.io/tapsme/appsso-starter-java-rehan@sha256:480969a5b9f51a418c647e48496ad477870d5f4fa7ec6f6a6e674b62b604cc51
         name: workload
         ports:
         - containerPort: 8080
