@@ -33,7 +33,7 @@ spec:
       - env:
         - name: JAVA_TOOL_OPTIONS
           value: -Dserver.port="8080" -Dserver.shutdown.grace-period="24s"
-        image: index.docker.io/tapsme/okta-app-sso-rehan@sha256:b8f1fac7f5e326f0f102a567dcc4c8b59097d8a6f4f2bfb4dfaa5a29c4984e67
+        image: index.docker.io/tapsme/okta-app-sso-rehan@sha256:be6db7fa124902079dc6581373ee7573772bff62542274e8b924d34a3ab9e6ef
         name: workload
         ports:
         - containerPort: 8080
